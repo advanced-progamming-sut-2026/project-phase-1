@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/report/sections/02-implementation.md",
-                "mode": "preview",
+                "file": "docs/report/sections/05-zombies-abilities.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-implementation"
+              "title": "05-zombies-abilities"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 552.5
   },
   "right": {
     "id": "75030e4af11ea428",
@@ -185,19 +185,23 @@
   },
   "active": "f9b74e47a2f85eea",
   "lastOpenFiles": [
-    "assets/images/Menu_Collection_3.png",
-    "assets/images/Menu_Collection_.png",
-    "assets/images/Menu_Collection_1.png",
-    "assets/images/Menu_Collection_4.png",
-    "assets/images/Menu_Collection_2.png",
-    "assets/images/IMG_2219 copy.png",
-    "Menu_Adventure_1_346321.jpg",
-    "assets/images/IMG_2219.png",
-    "assets/images/IMG_2220.png",
-    "assets/images/IMG_2221.png",
-    "assets/images/Menu_Game_Center.png",
-    "docs/report/sections/10-minigames.md",
+    "assets/images/zombies/iceage_dodo.png",
+    "docs/report/sections/05-zombies-abilities.md",
+    "assets/Data/ZombiesData.md",
+    "assets/images/zombies/egypt_explorer.png",
+    "assets/images/zombies/frame.png",
+    "assets/images/zombies/egypt_ra.png",
+    "assets/images/zombies/egypt_tomb_raiser.png",
+    "assets/images/zombies/iceage_troglobite.png",
+    "assets/images/zombies/iceage_hunter.png",
     "docs/report/sections/02-implementation.md",
+    "assets/images/zombies",
+    "assets/images/Menu_Main.png",
+    "assets/images/Menu_News.png",
+    "assets/images/Menu_Settings.png",
+    "docs/report/sections/04-plants-food-upgrades.md",
+    "docs/report/sections/03-fixed-stage-mechanisms.md",
+    "docs/report/sections/10-minigames.md",
     "assets/images",
     "README.md",
     "docs/report/main.md",
@@ -206,9 +210,6 @@
     "docs/report/sections/08-quests.md",
     "docs/report/sections/07-greenhouse-shop-settings.md",
     "docs/report/sections/06-adventure-stages-bosses.md",
-    "docs/report/sections/05-zombies-abilities.md",
-    "docs/report/sections/04-plants-food-upgrades.md",
-    "docs/report/sections/03-fixed-stage-mechanisms.md",
     "docs/report/sections/01-introduction.md",
     "Untitled.md"
   ]
