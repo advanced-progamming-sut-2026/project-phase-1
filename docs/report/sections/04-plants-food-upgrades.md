@@ -48,4 +48,88 @@
 
 ## ۳. جدول مشخصات گیاهان
 
+rotobaga
 
+paper pault
+
+hot potato
+
+pea pot
+
+split pea
+
+watermelon
+
+tall nat
+
+endurian
+
+citron
+
+sun bean
+
+magnetshroom
+
+caulipower
+
+electric blueberry
+
+hipnoshroom
+
+garlic
+
+sweet potato
+
+phat beet
+
+primal sunflower 
+
+primal potatomine
+
+lily pad
+
+tangle tape
+
+bowling bulb
+
+snow pea
+
+imitator
+
+chomper
+
+cactus
+
+wasabi whip
+
+grapeshot (extra)
+
+gold bloom
+
+squash
+
+jalopino
+
+fire peashoter
+
+kiwibeast (extra)
+
+torchwood (extra)
+
+starfruit
+
+explode not
+
+pumkin
+
+goo peashooter (extra)
+
+mega gateling pea
+
+doom shroom (extra)
+
+sea shroom
+
+ice shroom (extra)
+
+chili peper

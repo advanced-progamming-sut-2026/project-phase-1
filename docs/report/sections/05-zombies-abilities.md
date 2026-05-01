@@ -108,3 +108,24 @@
 بیشتر پرتابه ها را به سمت گیاهان بازمیگرداند
 ### Wizard Zombie
 گیاهان را به ببعی تبدیل میکند. در این حالت، گیاهان نه توانایی حمله دارند، نه اسیب میبینند.
+
+
+imp dragon
+
+news paper
+
+All star
+
+arcade zombie
+
+parasol zombie
+
+turquoise zombie
+
+prospector zombie
+
+pianist zombie
+
+barrel roller zombie
+
+imp cannon (extra)

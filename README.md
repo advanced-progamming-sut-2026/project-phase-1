@@ -1,5 +1,9 @@
 # Project Documents
 
+
+the navigation is not working
+also, can't you directly import the main.md from other sections to make a long document? it has to involve completely changing the page?
+
 This repository is structured for writing a formal project report in Markdown with a PDF-like academic format (cover page, repeated header style, menu/table of contents, and sectioned content).
 
 ## Directory Structure
