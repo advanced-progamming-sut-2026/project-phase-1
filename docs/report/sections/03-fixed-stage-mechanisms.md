@@ -1,4 +1,4 @@
-# مکانیزم‌های ثابت مراحل {#fixed-stage-mechanisms}
+# مکانیزم‌های ثابت مراحل <!-- {#fixed-stage-mechanisms} -->
 
 **مسئول: رهام**
 

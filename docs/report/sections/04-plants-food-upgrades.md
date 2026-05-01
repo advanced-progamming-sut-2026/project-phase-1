@@ -1,4 +1,4 @@
-# گیاهان، Plant Food و آپگریدها {#plants-food-upgrades}
+# گیاهان، غذای گیاهان و آپگریدها <!-- {#plants-food-upgrades} -->
 
 **مسئول: امیرحسین**
 

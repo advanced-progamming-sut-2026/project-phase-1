@@ -1,4 +1,4 @@
-# Leaderboard و بازی امتیازی {#leaderboard-scoring}
+# لیدربورد و بازی امتیازی <!-- {#leaderboard-scoring} -->
 
 **مسئول: متین**
 

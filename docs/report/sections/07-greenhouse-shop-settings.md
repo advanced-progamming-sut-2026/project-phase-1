@@ -1,4 +1,4 @@
-# گلخانه، فروشگاه و تنظیمات {#greenhouse-shop-settings}
+# گلخانه، فروشگاه و تنظیمات <!-- {#greenhouse-shop-settings} -->
 
 **مسئول: حسین**
 
