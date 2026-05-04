@@ -387,6 +387,79 @@ Basic zombies, armored variants, and the Gargantuar+Imp duo appear across multip
         ]
       }
     },
+    {
+      "aliases": [
+        "ZombieDarkArmor3Default"
+      ],
+      "objclass": "ZombiePropertySheet",
+      "objdata": {
+        "ArtCenter": {
+          "x": 100,
+          "y": 130
+        },
+        "AttackRect": {
+          "mHeight": 95,
+          "mWidth": 20,
+          "mX": 15,
+          "mY": 0
+        },
+        "CanSpawnPlantFood": true,
+        "Cost": 150,
+        "EatDPS": 100,
+        "GroundTrackName": "ground_swatch",
+        "HitRect": {
+          "mHeight": 95,
+          "mWidth": 32,
+          "mX": 10,
+          "mY": 10
+        },
+        "Hitpoints": 190,
+        "ScaledProps": [
+          {
+            "Arg1": 1.3,
+            "Arg2": 0.05,
+            "Formula": "standard",
+            "Key": "Hitpoints"
+          },
+          {
+            "Arg1": 1.3,
+            "Arg2": 0.05,
+            "Formula": "standard",
+            "Key": "EatDPS"
+          },
+          {
+            "Formula": "constant",
+            "Key": "Speed"
+          },
+          {
+            "Formula": "constant",
+            "Key": "WavePointCost"
+          }
+        ],
+        "ShadowOffset": {
+          "x": 0,
+          "y": 0,
+          "z": 1.2
+        },
+        "Speed": 0.185,
+        "WavePointCost": 550,
+        "Weight": 4500,
+        "ZombieArmorProps": [
+          "RTID(ShoulderArmorDefault@ArmorTypes)",
+          "RTID(CrownDefault@ArmorTypes)"
+        ],
+        "ZombieStats": [
+          {
+            "Type": "toughness",
+            "Value": "toughness6"
+          },
+          {
+            "Type": "speed",
+            "Value": "speed2"
+          }
+        ]
+      }
+    },
 ```
 
 ```json
@@ -519,6 +592,32 @@ Basic zombies, armored variants, and the Gargantuar+Imp duo appear across multip
           0.333
         ],
         "ImpactSoundEvent": "",
+        "DropSoundEvent": ""
+      }
+    },
+    {
+      "objclass": "NewspaperArmorPropertySheet",
+      "aliases": [
+        "NewspaperDefault"
+      ],
+      "objdata": {
+        "ClassName": "NewspaperArmor",
+        "ArmorType": "Newspaper",
+        "BaseHealth": 800,
+        "ArmorFlags": [
+          "damageable"
+        ],
+        "ArmorLayers": [
+          "_zombie_newspaper",
+          "_zombie_newspaper_dmg1",
+          "_zombie_newspaper_dmg2"
+        ],
+        "ArmorLayerHealth": [
+          0.666,
+          0.333
+        ],
+        "FireLayer": "_zombie_newspaper_flame",
+        "ImpactSoundEvent": "Play_Zomb_Modern_Newspaper_Paper_Impact",
         "DropSoundEvent": ""
       }
     },
@@ -2166,78 +2265,239 @@ Basic zombies, armored variants, and the Gargantuar+Imp duo appear across multip
 
 ```json
 {
-      "aliases": [
-        "ZombieEightiesArcade"
-      ],
-      "objclass": "ZombieEightiesArcadeProps",
-      "objdata": {
-        "Actions": [
-          "RTID(ZombieEightiesArcadePushAction@ZombieActions)"
-        ],
-        "ArtCenter": {
-          "x": 90,
-          "y": 125
-        },
-        "AttackRect": {
-          "mHeight": 95,
-          "mWidth": 20,
-          "mX": 15,
-          "mY": 0
-        },
-        "CanSpawnPlantFood": true,
-        "Cost": 150,
-        "EatDPS": 100,
-        "GroundTrackName": "ground_swatch",
-        "HitRect": {
-          "mHeight": 95,
-          "mWidth": 32,
-          "mX": 10,
-          "mY": 10
-        },
-        "Hitpoints": 490,
-        "JamStyle": "jam_8bit",
-        "ScaledProps": [
-          {
-            "Arg1": 1.3,
-            "Arg2": 0.05,
-            "Formula": "standard",
-            "Key": "Hitpoints"
-          },
-          {
-            "Arg1": 1.3,
-            "Arg2": 0.05,
-            "Formula": "standard",
-            "Key": "EatDPS"
-          },
-          {
-            "Formula": "constant",
-            "Key": "Speed"
-          },
-          {
-            "Formula": "constant",
-            "Key": "WavePointCost"
-          }
-        ],
-        "ShadowOffset": {
-          "x": 5,
-          "y": 0,
-          "z": 1.4
-        },
-        "Speed": 0.19,
-        "WavePointCost": 600,
-        "Weight": 1000,
-        "ZombieStats": [
-          {
-            "Type": "toughness",
-            "Value": "toughness4"
-          },
-          {
-            "Type": "speed",
-            "Value": "speed3"
-          }
-        ]
-      }
-    },
+  "aliases": [
+	"ZombieEightiesArcade"
+  ],
+  "objclass": "ZombieEightiesArcadeProps",
+  "objdata": {
+	"Actions": [
+	  "RTID(ZombieEightiesArcadePushAction@ZombieActions)"
+	],
+	"ArtCenter": {
+	  "x": 90,
+	  "y": 125
+	},
+	"AttackRect": {
+	  "mHeight": 95,
+	  "mWidth": 20,
+	  "mX": 15,
+	  "mY": 0
+	},
+	"CanSpawnPlantFood": true,
+	"Cost": 150,
+	"EatDPS": 100,
+	"GroundTrackName": "ground_swatch",
+	"HitRect": {
+	  "mHeight": 95,
+	  "mWidth": 32,
+	  "mX": 10,
+	  "mY": 10
+	},
+	"Hitpoints": 490,
+	"JamStyle": "jam_8bit",
+	"ScaledProps": [
+	  {
+		"Arg1": 1.3,
+		"Arg2": 0.05,
+		"Formula": "standard",
+		"Key": "Hitpoints"
+	  },
+	  {
+		"Arg1": 1.3,
+		"Arg2": 0.05,
+		"Formula": "standard",
+		"Key": "EatDPS"
+	  },
+	  {
+		"Formula": "constant",
+		"Key": "Speed"
+	  },
+	  {
+		"Formula": "constant",
+		"Key": "WavePointCost"
+	  }
+	],
+	"ShadowOffset": {
+	  "x": 5,
+	  "y": 0,
+	  "z": 1.4
+	},
+	"Speed": 0.19,
+	"WavePointCost": 600,
+	"Weight": 1000,
+	"ZombieStats": [
+	  {
+		"Type": "toughness",
+		"Value": "toughness4"
+	  },
+	  {
+		"Type": "speed",
+		"Value": "speed3"
+	  }
+	]
+  }
+}
+{
+  "aliases": [
+	"GridItemEightiesArcadeCabinet"
+  ],
+  "objclass": "GridItemEightiesArcadeCabinetProps",
+  "objdata": {
+	"BreakEffect": "POPANIM_EFFECTS_80S_ARCADE_CABINET_BREAK",
+	"CanBeMowed": true,
+	"DamagePhases": {
+	  "Phases": [
+		{
+		  "Layers": [
+			"arcade_cabinet_damage0",
+			"arcade_cabinet_active_damage0"
+		  ],
+		  "StartAtHealthPercent": 0.9
+		},
+		{
+		  "Layers": [
+			"arcade_cabinet_damage1",
+			"arcade_cabinet_active_damage1"
+		  ],
+		  "StartAtHealthPercent": 0.75
+		},
+		{
+		  "Layers": [
+			"arcade_cabinet_damage2",
+			"arcade_cabinet_active_damage2"
+		  ],
+		  "StartAtHealthPercent": 0.6
+		},
+		{
+		  "Layers": [
+			"arcade_cabinet_damage3",
+			"arcade_cabinet_active_damage3"
+		  ],
+		  "StartAtHealthPercent": 0.4
+		},
+		{
+		  "Layers": [
+			"arcade_cabinet_damage4",
+			"arcade_cabinet_active_damage4"
+		  ],
+		  "StartAtHealthPercent": 0.2
+		},
+		{
+		  "Layers": [
+			"arcade_cabinet_damage5",
+			"arcade_cabinet_active_damage5"
+		  ],
+		  "StartAtHealthPercent": 0
+		}
+	  ]
+	},
+	"Hitpoints": 600,
+	"Height": "ground",
+	"Hitpoints": 600,
+	"InitialPause": {
+	  "Max": 3,
+	  "Min": 1
+	},
+	"JamStyle": "jam_8bit",
+	"PlantingRestrictions": {
+	  "BlockedPlantingReason": "PLANTING_NOT_ON_ARCADE_MACHINE",
+	  "List": [],
+	  "ListType": "includelist"
+	},
+	"PopAnim": "POPANIM_EFFECTS_80S_ARCADE_CABINET",
+	"PopAnimDeathAnim": "death",
+	"PopAnimRenderOffset": {
+	  "x": 105,
+	  "y": 115
+	},
+	"PopAnimRigClass": "GridItemEightiesArcadeCabinetAnimRig",
+	"ScaledProps": [
+	  {
+		"Arg1": 1.3,
+		"Arg2": 0.05,
+		"Formula": "standard",
+		"Key": "Hitpoints"
+	  }
+	],
+	"TimeAfterZombieCreationWhereCabinetDoesNotMove": 2,
+	"TimeBetweenSpawns": {
+	  "Max": 12,
+	  "Min": 10
+	},
+	"ZombieSpawnPointOffset": -20,
+	"ZombieTypesToSpawn": [
+	  {
+		"Weight": 60,
+		"ZombieTypeName": "eighties_8bit"
+	  },
+	  {
+		"Weight": 30,
+		"ZombieTypeName": "eighties_8bit_armor1"
+	  },
+	  {
+		"Weight": 10,
+		"ZombieTypeName": "eighties_8bit_armor2"
+	  }
+	]
+  }
+}
+{
+  "objclass": "ZombiePushGridItemActionDefinition",
+  "aliases": [
+	"ZombieEightiesArcadePushAction"
+  ],
+  "objdata": {
+	"PushableGridItems": {
+	  "ListType": "includelist",
+	  "List": [
+		"eightiesarcadecabinet"
+	  ]
+	},
+	"PushBlockingGridItems": {
+	  "ListType": "excludelist",
+	  "List": [
+		"lilypad",
+		"powertile_alpha",
+		"powertile_beta",
+		"powertile_gamma",
+		"powertile_delta",
+		"powertile_epsilon",
+		"sap",
+		"plantfoodsap",
+		"lava",
+		"goldtile",
+		"wisp",
+		"bombegranateseeds",
+		"score_2x_tile",
+		"score_3x_tile",
+		"score_5x_tile",
+		"poison_tile",
+		"butter",
+		"shallowpuddle",
+		"potholepuddle",
+		"plantshallowpuddle"
+	  ]
+	},
+	"NotSquashedPlants": {
+	  "ListType": "includelist",
+	  "List": [
+		"potatomine",
+		"primalpotatomine"
+	  ]
+	},
+	"RelocationDuration": 0.5,
+	"PushRectangle": {
+	  "mX": 15,
+	  "mY": 0,
+	  "mWidth": 65,
+	  "mHeight": 95
+	}
+  }
+}
+```
+
+```json
+
 ```
 
 ```json

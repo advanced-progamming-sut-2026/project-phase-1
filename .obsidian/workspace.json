@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/report/sections/02-implementation.md",
+                "file": "docs/report/sections/05-zombies-abilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-implementation"
+              "title": "05-zombies-abilities"
+            }
+          },
+          {
+            "id": "5b4e85c6a5a3ae80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/report/sections/04-plants-food-upgrades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "04-plants-food-upgrades"
+            }
+          },
+          {
+            "id": "4796d685cb81f130",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assets/Data/ZombiesData.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ZombiesData"
             }
           }
         ]
@@ -78,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 446.5
   },
   "right": {
     "id": "75030e4af11ea428",
@@ -186,26 +213,32 @@
   },
   "active": "f9b74e47a2f85eea",
   "lastOpenFiles": [
-    "assets/images/War Wagon.png",
-    "assets/images/Sphinx-inator.png",
-    "assets/images/Pirate Seas.png",
-    "assets/images/Dark Dragon.png",
+    "assets/images/zombies/barrel.png",
+    "docs/report/sections/04-plants-food-upgrades.md",
+    "assets/images/zombies/barrel_roller.png",
+    "docs/report/sections/05-zombies-abilities.md",
+    "docs/report/sections/06-adventure-stages-bosses.md",
+    "docs/report/sections/07-greenhouse-shop-settings.md",
+    "assets/Data/ZombiesData.md",
+    "docs/report/sections/03-fixed-stage-mechanisms.md",
+    "docs/report/sections/02-implementation.md",
+    "assets/images/zombies/gargantuar.png",
+    "assets/images/zombies/brickhead.png",
+    "assets/images/zombies/imp.png",
+    "assets/images/zombies/garganntuar.png",
+    "assets/images/zombies/knight.png",
+    "assets/images/zombies/buckethead.png",
+    "assets/images/zombies/conehead.png",
+    "assets/images/zombies/default.png",
+    "templates/report-template.md",
+    "docs/report/sections/08-quests.md",
     "Untitled.canvas",
     "Untitled.base",
     "Untitled 3.base",
     "Untitled 2.base",
     "Untitled 1.base",
     "2026-05-02.md",
-    "docs/report/sections/02-implementation.md",
-    "assets/logo/pvz.png",
-    "assets/images/zombies/prospector.png",
-    "assets/images/zombies/piano.png",
-    "assets/images/zombies/modern_newspaper.png",
-    "assets/images/zombies/modern_allstar.png",
-    "assets/images/zombies/lostcity_parasol.png",
-    "assets/images/zombies/lostcity_crystalskull.png",
     "assets/images/zombies",
-    "assets/Data/ZombiesData.md",
     "assets/Data",
     "note.md",
     "!note.md",
@@ -215,12 +248,6 @@
     "docs/report/main.md",
     "docs/report/sections/11-references.md",
     "docs/report/sections/09-leaderboard-scoring.md",
-    "docs/report/sections/08-quests.md",
-    "docs/report/sections/07-greenhouse-shop-settings.md",
-    "docs/report/sections/06-adventure-stages-bosses.md",
-    "docs/report/sections/05-zombies-abilities.md",
-    "docs/report/sections/04-plants-food-upgrades.md",
-    "docs/report/sections/03-fixed-stage-mechanisms.md",
     "docs/report/sections/01-introduction.md",
     "Untitled.md"
   ]
