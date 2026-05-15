@@ -1,7 +1,7 @@
 ﻿<div align="center">
 
   <h2 dir="rtl">به نام خدا</h2>
-  <img src="assets/logo/logo.svg" width="180" style="margin: 0 auto; display: block;"/>
+  <img src="../assets/logo/logo.svg" width="180" style="margin: 0 auto; display: block;"/>
 
   <h2 dir="rtl">درس برنامه‌‌نویسی پیشرفته</h2>
   <h3 dir="rtl">فاز صفر و یک</h3>
@@ -35,11 +35,9 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
   <img src="assets/images/pvz1.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
-</div>
-
-<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
   <img src="assets/images/pvz2.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
+
 
 # فهرست مطالب
 

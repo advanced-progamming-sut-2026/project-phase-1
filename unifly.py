@@ -174,6 +174,7 @@ def image_to_base64(img_path, base_dir):
             candidate_path = candidate_path[3:]
             full_path = (base_dir / candidate_path).resolve()
         if not full_path.exists():
+            print(f"path [{img_path}] does not exist in [{base_dir}]")
             return None
         with open(full_path, 'rb') as f:
             img_data = f.read()
