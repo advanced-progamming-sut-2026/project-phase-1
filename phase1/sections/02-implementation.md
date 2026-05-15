@@ -1,10 +1,6 @@
-# ورود، ثبت‌نام، ساخت کاربر و پروفایل <!-- {#menu-auth-profile} -->
+﻿# احراز هویت کاربر و منوها
 
-**مسئول: محمدپارسا**
-
-- جریان کامل ورود و ثبت‌نام، اعتبارسنجی‌ها، پیام خطاها و بازیابی حساب مشخص شود.
-- مراحل ساخت کاربر جدید و پروفایل اولیه (نام، تصویر، تنظیمات پایه) توضیح داده شود.
-- ارتباط این بخش با دسترسی به منوها و ذخیره‌سازی وضعیت کاربر مستند شود.
+جریان کامل ورود و ثبت‌‌نام، اعتبارسنجی‌‌ها، پیام خطاها و بازیابی حساب مشخص می‌‌شود. مراحل ساخت کاربر جدید و پروفایل اولیه (نام، تصویر، تنظیمات پایه) توضیح داده می‌‌شود. ارتباط این بخش با دسترسی به منوها و ذخیره‌‌سازی وضعیت کاربر مستند می‌‌شود.
 
 ### منوها (Menus)
 در داخل بازی، منوها برای دسترسی کاربر به بخش‌های مختلف بازی مانند نقشه، تنظیمات،‌ فضای کاربری و ... توسعه می‌یابند. دستورات زیر در همه منو‌ها قابل استفاده هستند:
@@ -20,7 +16,7 @@ menu enter <menu_name>
 ```
 #### منوی فعلی
 ```
-show current menu
+menu show current
 ```
 #### خروج از منو
 کاربر با خروج از منو، به شرح زیر به منوی دیگری باید هدایت شود:
@@ -33,10 +29,9 @@ show current menu
 menu exit
 ```
 
+در ادامه به توضیح انواع منوهایی که باید پیاده‌‌سازی شوند می‌‌پردازیم:
 
-
-در ادامه به توضیح انواع منوهایی که باید پیاده‌سازی شوند میپردازیم:
-## منوی ثبت‌نام (Register Menu)
+## منوی ثبت‌‌نام (Register Menu) {#register-menu}
 
 بازی از این منو شروع می‌شود. در این قسمت با توجه به اینکه کاربر قبلا حساب کاربری دارد یا نه، میتواند یکی از گزینه‌های زیر را انتخاب کند:
 #### ۱. کاربر  ثبت‌نام جدید (Register) انجام دهد. 
@@ -65,48 +60,23 @@ register -u <username> -p <password> <password_confirm> -n <nickname> -e <email>
 **رمز عبور تصادفی**: کاربر می‌تواند به جای وارد کردن رمز عبور و تکرار آن از رمز عبور تصادفی استفاده کند، در این صورت شما باید یک رمز عبور تصادفی که تمام معیارهای یک رمز عبور قوی را داراست، تولید کنید و در صورت تایید کاربر آن را به عنوان رمز عبور استفاده کنید. در غیر این صورت، به انتخاب کاربر یا رمز عبور جدید تولید کنید یا به منوی اولیه بازگردید.
 
 
-<div style="background-color: #261c33; border: 1px solid #b266ff; color: white; padding: 15px; border-radius: 8px; font-family: Tahoma, sans-serif; direction: rtl;">
-    <strong style="color: #b266ff; font-size: 1.1em;">⭐ نکته امتیازی</strong>
-    
-    <!-- به‌جای تگ p از div استفاده شد تا بتواند پاراگراف‌ها و لیست‌ها را درون خود جای دهد -->
-    <div style="margin-top: 15px; line-height: 1.8; text-align: justify;">
-        
-        <strong style="color: #e0b3ff;">بخش امتیازی: SHA-256</strong>
-        <p style="margin-top: 5px;">
-        الگوریتم SHA-256 (مخفف Secure Hash Algorithm 256-bit) یک تابع هش رمزنگاری‌شده‌ی یک‌طرفه است که هر ورودی دلخواه (مانند رمز عبور) را به خروجی‌ای با طول ثابت ۲۵۶ بیت تبدیل می‌کند. این الگوریتم به‌گونه‌ای طراحی شده که بازیابی مقدار اولیه از خروجی تولیدشده عملاً غیرممکن باشد.
-        </p>
-        
-        <strong style="color: #e0b3ff;">علت استفاده از رمزنگاری یک‌طرفه</strong>
-        <p style="margin-top: 5px;">
-        رمزنگاری یک‌طرفه برای حفاظت از اطلاعات حساس (مانند رمز عبور) طراحی شده است تا حتی در صورت دسترسی غیرمجاز به فایل‌های ذخیره‌سازی، امکان بازیابی رمز اصلی وجود نداشته باشد. در این روش، رمز عبور کاربران هنگام ذخیره‌سازی، هش می‌شود و هنگام ورود مجدد، تنها خروجی هش‌شده‌ی رمز واردشده با مقدار ذخیره‌شده مقایسه می‌گردد.
-        </p>
-        
-        <p>
-        پیاده‌سازی رمزهای عبور با استفاده از الگوریتم‌هایی مانند SHA-256، امنیت سیستم را به‌طور قابل توجهی افزایش داده و از افشای مستقیم اطلاعات کاربران جلوگیری می‌کند. انجام این پیاده‌سازی برای رمز عبور کاربران، به‌عنوان یک بخش امتیازی در ارزیابی در نظر گرفته شده است.
-        </p>
-        
-        <p>
-        ذخیره‌سازی اطلاعات کاربران باید به‌صورت فایل خارجی انجام شود تا در هنگام اجرای مجدد برنامه، اطلاعات قبلی بازیابی شده و در دسترس باشد. این فرآیند شامل موارد زیر است:
-        </p>
-        
-        <ul style="margin-bottom: 0;">
-            <li>ذخیره‌سازی کلیه کاربران ثبت‌نام‌شده به‌همراه اطلاعات آن‌ها</li>
-            <li>بازیابی خودکار اطلاعات کاربران در شروع اجرای برنامه</li>
-            <li>عدم نیاز به ثبت‌نام مجدد کاربران قبلی پس از بسته‌شدن برنامه</li>
-        </ul>
-        
-    </div>
+<div style="background-color: #fffacd; border-right: 5px solid #ffcc00; padding: 15px; margin: 15px 0; border-radius: 4px; direction: rtl;">
+  <strong style="color: #ff9800; font-size: 1.1em;">⭐ نکته امتیازی — بخش امتیازی: SHA-256</strong>
+  <p style="margin-top: 10px; line-height: 1.8; text-align: justify;">الگوریتم SHA-256 (مخفف Secure Hash Algorithm 256-bit) یک تابع هش رمزنگاری‌شده‌ی یک‌طرفه است که هر ورودی دلخواه (مانند رمز عبور) را به خروجی‌ای با طول ثابت ۲۵۶ بیت تبدیل می‌کند. این الگوریتم به‌گونه‌ای طراحی شده که بازیابی مقدار اولیه از خروجی تولیدشده عملاً غیرممکن باشد.</p>
+  <p style="margin-top: 10px; line-height: 1.8; text-align: justify;"><strong>علت استفاده از رمزنگاری یک‌طرفه</strong><br>رمزنگاری یک‌طرفه برای حفاظت از اطلاعات حساس (مانند رمز عبور) طراحی شده است تا حتی در صورت دسترسی غیرمجاز به فایل‌های ذخیره‌سازی، امکان بازیابی رمز اصلی وجود نداشته باشد. در این روش، رمز عبور کاربران هنگام ذخیره‌سازی، هش می‌شود و هنگام ورود مجدد، تنها خروجی هش‌شده‌ی رمز واردشده با مقدار ذخیره‌شده مقایسه می‌گردد.</p>
+  <p style="margin-top: 10px; line-height: 1.8; text-align: justify;">پیاده‌سازی رمزهای عبور با استفاده از الگوریتم‌هایی مانند SHA-256، امنیت سیستم را به‌طور قابل توجهی افزایش داده و از افشای مستقیم اطلاعات کاربران جلوگیری می‌کند. انجام این پیاده‌سازی برای رمز عبور کاربران، به‌عنوان یک بخش امتیازی در ارزیابی در نظر گرفته شده است.</p>
+  <p style="margin-top: 10px; line-height: 1.8; text-align: justify;">ذخیره‌سازی اطلاعات کاربران باید به‌صورت فایل خارجی انجام شود تا در هنگام اجرای مجدد برنامه، اطلاعات قبلی بازیابی شده و در دسترس باشد. این فرآیند شامل موارد زیر است:</p>
+  <ul style="margin-top: 10px; margin-bottom: 0;">
+    <li>ذخیره‌سازی کلیه کاربران ثبت‌نام‌شده به‌همراه اطلاعات آن‌ها</li>
+    <li>بازیابی خودکار اطلاعات کاربران در شروع اجرای برنامه</li>
+    <li>عدم نیاز به ثبت‌نام مجدد کاربران قبلی پس از بسته‌شدن برنامه</li>
+  </ul>
+
 </div>
 
-<br>
-<div style="background-color: #f0f7ff; border: 1px solid #4a90e2; color: #333333; padding: 15px; border-radius: 8px; font-family: Tahoma, sans-serif; direction: rtl;">
-    
-    <strong style="color: #4a90e2; font-size: 1.1em;">💡 پیشنهاد فنی</strong>
-    
-    <p style="margin-bottom: 0; line-height: 1.8; margin-top: 10px; text-align: justify;">
-برای پیاده‌سازی این قابلیت، می‌توان از قالب‌هایی مانند <strong>JSON یا XML</strong> برای ذخیره‌سازی داده‌ها به‌صورت ساختاریافته استفاده کرد. همچنین فایل خروجی می‌تواند با پسوند <code>txt.</code> یا <code>json.</code> ذخیره شود. در پروژه‌های پیشرفته‌تر، امکان استفاده از پایگاه داده‌های سبک مانند <strong>SQLite</strong> نیز وجود دارد.
-    </p>
-
+<div style="background-color: #e3f4fd; border-left: 5px solid #4a90e2; padding: 15px; margin: 15px 0; border-radius: 4px; direction: rtl;">
+  <strong style="color: #1976d2; font-size: 1.1em;">💡 پیشنهاد فنی</strong>
+  <p style="margin-top: 10px; line-height: 1.8; text-align: justify; margin-bottom: 0;">برای پیاده‌سازی این قابلیت، می‌توان از قالب‌هایی مانند <strong>JSON یا XML</strong> برای ذخیره‌سازی داده‌ها به‌صورت ساختاریافته استفاده کرد. همچنین فایل خروجی می‌تواند با پسوند <code>txt</code> یا <code>json</code> ذخیره شود. در پروژه‌های پیشرفته‌تر، امکان استفاده از پایگاه داده‌های سبک مانند <strong>SQLite</strong> نیز وجود دارد.</p>
 </div>
 
 ##### ۳. نام مستعار (Nickname)
@@ -158,7 +128,7 @@ pick question -q <question_number> -a <answer> -c <answer_confirm>
 <br>
 
 
-## منوی ورود (Login Menu)
+## منوی ورود (Login Menu) {#login-menu}
 در این قسمت می‌تواند یکی از اقدامات زیر را انجام دهد:
 #### ۱. وارد کردن اطلاعات جهت ورود به حساب کاربری
 در این حالت، کاربران می‌توانند با وارد کردن نام کاربری و رمز عبور خود وارد منوی اصلی برنامه شوند. 
@@ -185,10 +155,12 @@ answer -a <answer>
 <br>
 
 
-## منوی اصلی (Main Menu)
+## منوی اصلی (Main Menu) {#main-menu}
 بعد از انجام مراحل Authorization/Authentication و زمانی که کاربر توانست با یک حساب کاربری شناخته شود، وارد منوی اصلی می‌شویم.
 
-![Main Menu](../../../assets/images/Menu_Main.png "Main Menu")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_Main.png" alt="Main Menu" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 
 این منوی ارتباط اصلی ما را دیگر منوهای بازی برقرار میکند. از این منو میتوان با انتخاب گزینه آنها به یکی از منوهای زیر رفت:
@@ -202,7 +174,7 @@ answer -a <answer>
 با اعمال این دستور، کاربر از حساب کاربری خود خارج و وارد منوی ثبت‌نام خواهد شد.
 
 ```
-user logout
+menu logout
 ```
 
 
@@ -210,32 +182,36 @@ user logout
 
 ## منوی بازی (Adventure Menu)
 
-![Menu_Adventure_1](../../../assets/images/Menu_Adventure_1.png "Menu_Adventure_1")
-![Menu_Adventure_2](../../../assets/images/Menu_Adventure_2.png "Menu_Adventure_2")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_Adventure_1.png" alt="Menu_Adventure_1" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_Adventure_2.png" alt="Menu_Adventure_2" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 در این منو، چند قسمت (Chapter) وجود دارد که هر زمان تمام مراحل آن Chapter تمام شد، مراحل Chapter بعد باز می‌شوند. با انتخاب هر Chapter وارد قسمت بازی می‌شوید و شروع به بازی کردن با آن مرحله از بازی خواهید شد.
 
 در قسمت بالای صفحه‌ هم، المان‌های مختلفی وجود دارد.
 * دکمه منوی کلکسیون (Collection Menu). (در فاز ۱، با دستور `menu enter` باید بتوان به این منو رفت.)
-* دکمه گلخونه (greenhouse).
+* دکمه گلخانه (Greenhouse).
 ```
-greenhouse
+menu greenhouse
 ```
-* منوی کوئست‌ها
+* منوی کوئست‌ها (Travel Log).
 ```
-travel log
+menu travel-log
 ```
-* دکمه جدول امتیازات
+* دکمه جدول امتیازات (Leaderboard).
 ```
-leaderboard
+menu leaderboard
 ```
-* نشان‌دهنده میزان سکه جمع‌آوری شده (!)
+* نشان‌دهنده میزان سکه جمع‌آوری شده (Coin Wallet).
 ```
-coin wallet
+menu coin-wallet
 ```
-* نشان‌دهنده میزان الماس جمع‌آوری شده‌ (!)
+* نشان‌دهنده میزان الماس جمع‌آوری شده (Gem Wallet).
 ```
-gem wallet
+menu gem-wallet
 ```
 
 هنگامی که هر Chapter یا مرحله را به سرانجام رساندید، Chapterها و مراحل جدید برای شما باز می‌شوند و می‌توانید آنها را ادامه دهید ولی در غیر این صورت آنها هنوز باز (Unlock) نشده‌اند.
@@ -248,12 +224,14 @@ gem wallet
 با دستورات زیر، می‌توان به تعداد الماس‌ها یا سکه‌های خود اضافه کرد.
 
 ```
-cheat add <n> <coin/diamond>
+menu cheat add <n> <coin/diamond>
 ```
 
-## منوی تنظیمات (Settings Menu)
+## منوی تنظیمات (Settings Menu) {#settings-menu}
 
-![Menu_Settings](../../../assets/images/Menu_Settings.png "Menu_Settings")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_Settings.png" alt="Menu_Settings" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 
 در این منو،‌ می‌توان تنظیمات مربوط به بازی از جمله میزان سختی بازی و ... را تغییر داد.
@@ -264,32 +242,28 @@ stat
 را بیشتر یا کمتر می‌کند. در ادامه توضیحات، همواره فرض می‌شود میزان سختی ۳ است، مگر آنکه خلاف آن گفته شود.
 
 ```
-change difficulty -l <difficulty_level>
+menu settings change-difficulty -l <difficulty_level>
 ```
-<br>
 
-<div style="background-color: #2b241f; border: 1px solid #f5894b; color: white; padding: 15px; border-radius: 8px; ont-family: Tahoma, sans-serif; direction: rtl; ">
-    
-    <strong style="color: #f5894b;">⚠️ تذکر</strong>
-    
-    <p style="margin-bottom: 0; line-height: 1.6;">
-در بخش‌های بعدی پروژه، تنظیمات جدید مطابق با خودش بخش به این قسمت اضافه خواهد شد.
-    </p>
-
+<div style="background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin: 15px 0; border-radius: 4px; direction: rtl;">
+  <strong style="color: #ff9800; font-size: 1.1em;">⚠️ تذکر</strong>
+  <p style="margin-top: 10px; line-height: 1.6; margin-bottom: 0;">در بخش‌های بعدی پروژه، تنظیمات جدید مطابق با خودش بخش به این قسمت اضافه خواهد شد.</p>
 </div>
 
-<br>
+## منوی شبکه (Game Center Menu) {#side-menus}
 
-## منوی شبکه (Game Center Menu)
-
-![Menu_Game_Center](../../../assets/images/Menu_Game_Center.png "Menu_Game_Center")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_Game_Center.png" alt="Menu_Game_Center" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 توضیحات بیشتر درباره این منو در داک قسمت شبکه ارائه داده خواهد شد.
 
 
 ## منوی اخبار (News Menu)
 
-![Menu_News](../../../assets/images/Menu_News.png "Menu_News")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_News.png" alt="Menu_News" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 این منو مربوط به اخبار بازی است. مانند زامبی‌ها، گیاهان، minigameها، پیام از طرف سایر کاربران (داخل قسمت شبکه) و سایر موارد که در داخل بازی اتفاق می‌افتد، در این بخش قرار میگیرند. هرگاه پیام جدیدی برای کاربر قرار داده شود، باید دکمه News داخل منوی اصلی، باید یک علامت قرمز رنگی برای اطلاع کاربر قرار داده شود.
 در ادامه به توضیح بیشتر مواردی که باید در این بخش پیاده‌سازی کنید می‌پردازیم.
@@ -300,46 +274,40 @@ change difficulty -l <difficulty_level>
 
 #### نمایش اخبار جدید
 ```
-show unread news
+menu news show-unread
 ```
 در این صورت بایستی این اخبار **خوانده شده** در نظر گرفته شوند و در دفعات بعدی اجرای این کد، این اخبار نشان داده نشوند.
 #### نمایش تمام اخبار کاربر
 ```
-show all news
+menu news show-all
 ```
 
 
 
-## منوی پروفایل (Profile Menu)
+## منوی پروفایل (Profile Menu) {#profile-menu}
 
 در این منو، کاربر بایستی بتواند تغییرات مربوط به حساب کاربری خود، شامل موارد زیر را تغییر دهد:
 * تغییر username:‌ در صورتی که با نام کاربری فعلی برابر باشد، باید خطای متمایز و مناسب نشان دهد.
 ```
-change username -u <username>
+menu profile change-username -u <username>
 ```
-* تغییر nickname: در صورتی که با نام مستعار فعلی برابر باشد، باید خطای متمایز و مناسب نشان دهد.
+* تغیير nickname: در صورتی که با نام مستعار فعلی برابر باشد، باید خطای متمایز و مناسب نشان دهد.
 ```
-change nickname -u <nickname>
+menu profile change-nickname -u <nickname>
 ```
-* تغییر email: در صورتی که با ایمیل فعلی برابر باشد، باید خطای متمایز و مناسب نشان دهد.
+* تغیير email: در صورتی که با ایمیل فعلی برابر باشد، باید خطای متمایز و مناسب نشان دهد.
 ```
-change email -e <email>
+menu profile change-email -e <email>
 ```
-* تغییر password: در صورتی که مقدار گذرواژه جدید با گذرواژه کنونی کاربر یکسان باشد یا در صورتی که گذرواژه قدیمی اشتباه باشد، در هر حالت باید اخطاری متناسب با آن چاپ شود.
+* تغیير password: در صورتی که مقدار گذرواژه جدید با گذرواژه کنونی کاربر یکسان باشد یا در صورتی که گذرواژه قدیمی اشتباه باشد، در هر حالت باید اخطاری متناسب با آن چاپ شود.
 ```
-change password -p <new_password> -o <old_password>
+menu profile change-password -p <new_password> -o <old_password>
 ```
 
-<div style="background-color: #2b241f; border: 1px solid #f5894b; color: white; padding: 15px; border-radius: 8px; ont-family: Tahoma, sans-serif; direction: rtl; ">
-    
-    <strong style="color: #f5894b;">⚠️ تذکر</strong>
-    
-    <p style="margin-bottom: 0; line-height: 1.6;">
-برای تغییر هر یک از موارد بالا، بایستی کاربر طبق همان محدودیت‌ها و مراحلی که در مرحله Register برای این اطلاعات در نظر گرفته شده بود، اقدام کند.
-    </p>
-
+<div style="background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin: 15px 0; border-radius: 4px; direction: rtl;">
+  <strong style="color: #ff9800; font-size: 1.1em;">⚠️ تذکر</strong>
+  <p style="margin-top: 10px; line-height: 1.6; margin-bottom: 0;">برای تغییر هر یک از موارد بالا، بایستی کاربر طبق همان محدودیت‌ها و مراحلی که در مرحله Register برای این اطلاعات در نظر گرفته شده بود، اقدام کند.</p>
 </div>
-
 
 #### نمایش اطلاعات کاربر
 با وارد کردن این دستور، باید اطلاعات کاربر شامل موارد زیر نمایش داده شود:
@@ -352,13 +320,19 @@ change password -p <new_password> -o <old_password>
 - تعداد مراحلی که کاربر آنها را گذرانده است.
 
 ```
-user info
+menu profile show-info
 ```
 
-## منوی کلکسیون (Collection Menu)
+## منوی بازی (Adventure Menu) {#game-menu}
 
-![Menu_Collection_1](../../../assets/images/Menu_Collection_1.png "Menu_Collection_1")
-![Menu_Collection_2](../../../assets/images/Menu_Collection_2.png "Menu_Collection_2")
+### منوی کلکسیون (Collection Menu)
+
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_Collection_1.png" alt="Menu_Collection_1" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+  <img src="assets/images/Menu_Collection_2.png" alt="Menu_Collection_2" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 همانطور که در این عکس‌ها هم مشاهده می‌کنید، منوی Collection برای نشان دادن گیاهان، زامبی‌هایی که کسب کرده‌اید، استفاده می‌شوند.
 در این قسمت، با کلیک کردن روی هر گیاه یا زامبی باید جزئیات آن مشاهده کنیم.
@@ -366,37 +340,36 @@ user info
 
 #### نمایش لیست گیاهان کسب شده
 ```
-show collected plants
+menu collection show-plants
 ```
 #### نمایش لیست تمام گیاهان تعریف شده در بازی
 ```
-show all plants
+menu collection show-all-plants
 ```
 #### نمایش لیست زامبی‌های مشاهده‌شده
 ```
-show revealed zombies
+menu collection show-zombies
 ```
 #### نمایش لیست تمام زامبی‌های تعریف شده در بازی
 ```
-show all zombies
+menu collection show-all-zombies
 ```
 #### نمایش مشخصات یک گیاه
 ```
-show plant -p <plant_name>
+menu collection show-plant -p <plant_name>
 ```
 در صورتی که گیاه نام برده هنوز کسب نشده، باید خطای مناسب نشان داده شود.
 #### نمایش مشخصات یک زامبی
 ```
-show zombie -z <zombie_name>
+menu collection show-zombie -z <zombie_name>
 ```
 در صورتی که زامبی نام برده شده هنوز مشاهده‌ نشده، باید خطای مناسب نشان داده شود.
 
 #### ارتقای گیاه
-با دستور زیر می‌توان گیاهان را ارتقا داد. اگر برای ارتقای گیاه سکه یا
-seed packet
-کافی از آن گیاه نداریم، باید خطای مناسب نمایش داده شود.
+با دستور زیر می‌توان گیاهان را ارتقا داد. اگر برای ارتقای گیاه سکه یا seed packet کافی از آن گیاه نداریم، باید خطای مناسب نمایش داده شود.
 ```
-upgrade plant -p <plant_name>
+menu collection upgrade-plant -p <plant_name>
 ```
 
 *نکته*: در ادامه، بیشتر درمورد ارتقای گیاهان توضیح داده می‌شود.
+

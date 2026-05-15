@@ -1,4 +1,4 @@
-# مینی‌گیم‌ها {#minigames}
+﻿# مینی‌گیم‌ها {#minigames}
 
 <!-- **مسئول: امین**
 
@@ -18,7 +18,9 @@ travel log
 
 در این مینی گیم، هدف بازیکن این است که تمامی کوزه های چیده شده روی حیاط خودش را بشکند و هم زمان مراقب باشد که زامبی هایی که ممکن است درون کوزه بوده باشند، مغز او را نخورند.
 
-![Vasebreaker Example](../../../assets/images/Tres_x_Tres.jpg "Vasebreaker Example")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+	<img src="assets/images/Tres_x_Tres.jpg" alt="Vasebreaker Example" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 ### جزئیات پیاده سازی
 
@@ -26,13 +28,19 @@ travel log
 
 #### کوزه های خاص
 
-![Normal Vase](../../../assets/images/HD_Vase.png "Normal Vase")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+	<img src="assets/images/HD_Vase.png" alt="Normal Vase" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 علاوه بر کوزه های عادی که صرفا دارای یک نماد علامت سوال هستند، دو نوع کوزه خاص هم داریم.
 
-![Plant Vase](../../../assets/images/HD_Plant_Vase.png "Plant Vase")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+	<img src="assets/images/HD_Plant_Vase.png" alt="Plant Vase" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
-![Gargantuar Vase](../../../assets/images/HD_Gargantuar_Vase.png "Gargantuar Vase")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+	<img src="assets/images/HD_Gargantuar_Vase.png" alt="Gargantuar Vase" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 - کوزه گیاه: به صورت تضمینی یک Seed Packet تصادفی برای کاشت گیاه می دهد.
 - کوزه غول: به صورت تضمینی یک غول  (Gargantuar) از آن خارج می شود.
@@ -47,13 +55,17 @@ seed packet
 
 در این مینی گیم، روال بازی تقریبا بدون تغییر است به استثنای یک مورد، تعدادی گیاه از پیش مشخص شده روی حیاط قرار دارند (روی کاشی هایی که رنگ سیاه و زرد دارند قرار می گیرند) و اگر  حتی یکی از این گیاهان خورده یا نابود بشود، بازیکن مرحله را می بازد.
 
-![SOS Example](../../../assets/images/SOS-Example.jpg "SOS Example")
+![SOS Example](assets/images/SOS-Example.jpg "SOS Example")
+
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+	<img src="assets/images/SOS-Example.jpg" alt="SOS Example" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 ### جزئیات پیاده سازی
 
 روند کلی بازی به طور عمومی حفظ شده و فقط این گیاهان مورد مراقبت به صفحه بازی افزوده می شوند، امکان برداشتن آنها با بیل هم ممکن نیست.
 
-![SOS Tile](../../../assets/images/SOSpanel.png "SOS Tile") -->
+![SOS Tile](assets/images/SOSpanel.png "SOS Tile") -->
 
 ## Wallnut Bowling (بولینگ گردویی) 🎳
 
@@ -80,7 +92,9 @@ seed packet
 plants vs. zombies 1
 گرفته شده است و برای این است که ایده حدودی از خواسته پروژه داشته باشید، برای همین ممکن است بعضی گیاهان یا زامبی‌های این تصویر در پروژه وجود نداشته باشند)
 
-![i, zombie](../../../assets/images/IZombie.png "i, zombie layout")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+	<img src="assets/images/IZombie.png" alt="i, zombie" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 ### جزئیات پیاده سازی
 
@@ -103,7 +117,9 @@ candy crush).
 
 نکته: فقط در صورتی می‌توان گیاهی را جابه‌جا کرد، که با جابه‌جایی آن یک ترکیب سه تایی ایجاد شود.
 
-![Beghouled](../../../assets/videos/Beghouled.gif "Beghouled")
+<div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
+	<img src="assets/videos/Beghouled.gif" alt="Beghouled" style="display: block; width: 50vw;  max-width: 100%;">
+</div>
 
 هرگاه ترکیبی ساخته شود، گیاهان آن ترکیب از بین رفته و گیاهان بالای آنها پایین به جای آنها می‌افتند، و هرجا لازم باشد، گیاه به صورت تصادفی از بالا ساخته می‌شود.
  بازیکن وقتی برنده می‌شود که تعدادی معین ترکیب سه تایی (یا بیشتر) بسازد.
@@ -219,3 +235,4 @@ peashooter
 - کدو (squash): خیلی سریع حرکت می‌کند و اگر به گیاهی برسد، هم خودش و هم آن گیاه را از بین می‌برد.
 
 بقیه‌ی اجزای مرحله مانند یک مرحله معمولی است.
+

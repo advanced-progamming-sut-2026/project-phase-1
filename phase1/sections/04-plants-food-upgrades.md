@@ -1,6 +1,6 @@
-# گیاهان، غذای گیاهان و آپگریدها <!-- {#plants-food-upgrades} -->
+﻿# گیاهان {#plants}
 
-# مکانیزم‌ها و دسته‌بندی گیاهان
+## مکانیزم‌‌ها و دسته‌‌بندی گیاهان
 
   
 ## ۱. دسته‌بندی گیاهان
@@ -137,6 +137,7 @@ seed packet
 ---
 
 
-### [جدول مشخصات گیاهان](../../../assets/Plants.json)
+### [جدول مشخصات گیاهان](assets/Plants.json)
 
 [جدول گیاهان به صورت google sheet](https://docs.google.com/spreadsheets/d/1ZJWxRfTzkDfD-W8DXg255-C3TgGqh_v89VYq4UmFiT8/edit?gid=1382794905#gid=1382794905)
+

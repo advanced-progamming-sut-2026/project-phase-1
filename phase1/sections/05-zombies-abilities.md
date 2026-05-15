@@ -1,5 +1,5 @@
-
-# زامبی‌ها و قابلیت‌ها <!-- {#zombies-abilities} -->
+﻿
+# زامبی‌‌ها {#zombies}
 ## انواع زامبی ها
 ### مشترک بین همه چپتر ها
 #### زامبی معمولی (Basic)
@@ -7,10 +7,10 @@
 
 ##### معمولی
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/default.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/default.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -18,10 +18,10 @@
 
 -  برای کشتنش، ابتدا باید مخروط بالای سرش (مخروط ها جانی معادل 370 دارند) از بین برود
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/conehead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/conehead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -30,10 +30,10 @@
 - برای کشتنش، ابتدا باید سطل بالای سرش (سطل ها جانی معادل 1100 دارند) از بین برود
 - گیاه magnetshroom میتواند سطل او را به جذب کند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/buckethead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/buckethead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -42,10 +42,10 @@
 - برای کشتنش باید ابتدا کلاهخود و شانه بند (کلاه خود و شانه بند هردو جانی معادل 1600 دارند) او از بین برود
 - گیاه magnetshroom میتواند کلاهخود او را جذب کند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/knight.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/knight.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -53,10 +53,10 @@
 
 - برای کشتنش ابتدا باید بلوک روی سرش (بلوک ها جانی معادل 2200 دارند) از بین برود 
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/brickhead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/brickhead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -66,10 +66,10 @@
 - هروقت به گیاهی برسند، با یک ضربه آن را از بین میبرند
 - یک Imp پشت این زامبی ها قرار دارد. هروقت زامبی غولپیکر به نصف جان خودش برسد، imp را از پشت خود پرتاب میکند و به ستون سوم (از چپ) از سطر خودش میندازد
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/gargantuar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/gargantuar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -77,10 +77,10 @@
 
 - زامبی های کوچکی که سریع تر حرکت میکنند و همچنین سریع تر به گیاهان اسیب میزنند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/imp.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/imp.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -90,10 +90,10 @@
 - بعد خوردن گیاه، با سرعت بسیار آرام به راه رفتن ادامه میدهد
 - در حین دویدن، اگر یک imp جلوی پایش باشد، آن را به ستون سوم (از چپ) در همان سطر پرتاب میکند. اگر imp هیپنوتیزم شده باشد، پرتاب نمیشود و صرفا در جا میمیرد
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/modern_allstar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/modern_allstar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -102,10 +102,10 @@
 - این زامبی دستگاه های Arcade روی زمین را به جلو هل میدهد
 - در صورتی که حین هل دادن، دستگاه به زامبی هیپنوتیزم شده یا گیاهی بخورد، درجا آن را میکشد
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/arcade.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/arcade.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -113,10 +113,10 @@
 
 - این زامبی با چتر خود، تمامی ضربات گیاهان lobber را دفع میکند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/lostcity_parasol.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/lostcity_parasol.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -127,10 +127,10 @@
 - بعد 5 ثانیه، لیزری قدرتمند به چهار خانه رو به رویی در سطر خود شلیک میکند و همه گیاهان در آن 4 خانه را از بین میبرد
 - پس از کشته شدن، نیمی از خورشید‌های دزدیده شده را می‌اندازد
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/lostcity_crystalskull.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/lostcity_crystalskull.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -139,10 +139,10 @@
 - یک دینامیت در پشت خود دارد که بعد از 10 ثانیه منفجر میشود
 - بعد انفجار دینامیت به انتهای سطر (کنار خانه) پرتاب میشود و خلاف جهت باقی زامبی ها شروع به حرکت و خوردن گیاه ها میکند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/prospector.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/prospector.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -152,10 +152,10 @@
 - در صورت برخورد او با گیاهان، گیاهان از بین میروند
 - پیانو مینوازد و حین نواختن پیانو، زامبی ها هر چند ثانیه یک بار به صورت رندوم سطر خود را با یکی از سطر های همسایه جا به جا میکنند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/piano.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/piano.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -165,10 +165,10 @@
 - بعد نابود شدن روزنامه اش، عصبی شده و سرعت حرکت و خوردن گیاهانش چند برابر میشود
 <!-- - گیاهانی که از بالا تیر پرتاب می‌کنند، مستقیما به خودش ضربه زده و به روزنامه ضربه نمی‌زنند -->
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/modern_newspaper.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/modern_newspaper.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -178,19 +178,19 @@
 - اگر زامبی قبل خراب شدن دبه (توسط گیاهان یا زامبی های هیپنوتیزم شده) بمیرد، دبه سر جای خودش باقی میماند. تیر ها از آن رد نمیشوند ولی زامبی ها چرا
 - در صورت خراب شدن دبه، دو imp در سطر سطر فعلی از دبه در میایند و به سمت خانه حرکت میکنند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/barrel_roller.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/barrel_roller.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
 همچنین دبه خالی نیز بدین شکل است:
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/barrel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/barrel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -200,10 +200,10 @@
 - خورشید هایی که روی زمین هستند را به سمت خود میکشد و میدزدد
 - بعد کشته شدن وی، تمام خورشید های دزدیده شده به بازیکن بازمیگردد
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/egypt_ra.png" alt="Zombie" style="position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; object-fit: contain; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/egypt_ra.png" alt="Zombie" style="position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; object-fit: contain; display: block;">
   </div>
 </div>
 
@@ -213,10 +213,10 @@
 - گیاهان و پرتابه های یخی، مشعل او را خاموش میکنند
 - گیاهان و پرتابه های آتشین مشعل او را روشن میکنند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/egypt_explorer.png" alt="Zombie" 
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/egypt_explorer.png" alt="Zombie" 
          style="position: absolute; 
                 top: 10%; 
                 left: 10%; 
@@ -231,10 +231,10 @@
 
 - هر چند ثانیه یک بار، دو استخان از دهان خود درمیاورد و به دو خانه رندوم در زمین پرتاب میکند تا در آن دو خانه قبر به وجود بیاید
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/egypt_tomb_raiser.png" alt="Zombie" 
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/egypt_tomb_raiser.png" alt="Zombie" 
          style="position: absolute; 
                 top: 10%; 
                 left: 10%; 
@@ -254,10 +254,10 @@
 - از موانع (مانند wallnut) پرواز می‌کنند. 
 - موانع برای این زامبی گیاهانی که جان زیادی دارند (مانند گردو)، گیاهان یا موانعی که زامبی‌ها را به ردیفی دیگر می‌برند، و گیاهان خطرناک مانند مین هستند. از بقیه موارد پرواز نمی‌کند.
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/iceage_dodo.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/iceage_dodo.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -269,10 +269,10 @@
 - گیاهان یخ زده توانایی انجام کاری ندارند
 - باقی گیاهان باید یخ را از بین ببرند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/iceage_hunter.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/iceage_hunter.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -281,10 +281,10 @@
 - یخ های روی زمین را به جلو هل میدهد
 - در صورت برخورد یخ ها با گیاهان یا زامبی های هیپنوتیزم شده، در جا از بین میروند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/iceage_troglobite.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/iceage_troglobite.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -296,10 +296,10 @@
 - در صورتی که گیاه در کنارش باشد، گیاه قلاب شده را پرتاب کرده و از بین میبرد
 
 <!-- > برخی گیاهان به او مصونند و او آنها را قلاب نمیکند -->
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/beach_fisherman.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/beach_fisherman.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -309,10 +309,10 @@
 - مادامی که زیر آب است، تنها lobber ها میتوانند به آن آسیب بزنند
 - برای خوردن گیاهان، به سطح آب میاید و در این حالت نسبت به حملات گیاهان اسیب پذیر است
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/beach_snorkel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/beach_snorkel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -321,10 +321,10 @@
 - هر چند ثانیه یک بار، به گیاهان سطر خود اختاپوس پرت میکند
 - اختاپوس ها اثراتی مشابه یخ زدگی دارند (تیر گیاهان از آن ها نمیگذرد، گیاهان اختاپوس به سر توانایی کاری ندارند، باقی گیاهان باید اختاپوس را از بین ببرند)
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/beach_octopus.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/beach_octopus.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -339,10 +339,10 @@
 - چرخش را تا زمانی که پرتابه ای به سمتش نیاید ادامه میدهد. بعد آن دوباره شروع به حرکت عادی میکند
 - تعداد تیر های بازگردانده شده، مدت زمان چرخش و تعداد دفعات شروع چرخیدن محدودیتی ندارد
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/dark_juggler.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/dark_juggler.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -353,10 +353,10 @@
 - گیاهانی که ببعی شدند، تا زمان کشته شدن جادوگری که آنها را تلسم کرده ببعی میماند و بعد آن به حالت عادی بازمیگردند
 - در صورت رسیدن به یک گیاه، او را نمیخورد. بلکه به ببعی تبدیل میکند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/dark_wizard.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/dark_wizard.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -365,10 +365,10 @@
 - در راست ترین ستون قرار میگیرد و حرکت نمیکند
 - هر چند ثانیه یک بار، یکی از زامبی های ساده اطراف خود را به شوالیه تبدیل میکند (به آنها کلاهخود و شانه بند میدهد)
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/dark_king.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/dark_king.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -376,10 +376,10 @@
 
 - مانند باقی ایمپ هاست، با این تفاوت که تیر های اتشین رویش تاثیری ندارند
 
-<div style="position: relative; display: flex; justify-content: center; align-items: center; width: 100%; margin: 20px">
+<div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="assets/images/zombies/dark_imp_dragon.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../assets/images/zombies/dark_imp_dragon.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -436,3 +436,4 @@ cheat spawn-zombie -t <zombie-type> -l <x, y>
 
 
 <!-- imp cannon (extra) -->
+
