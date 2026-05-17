@@ -121,7 +121,7 @@ candy crush).
 نکته: فقط در صورتی می‌توان گیاهی را جابه‌جا کرد، که با جابه‌جایی آن یک ترکیب سه تایی ایجاد شود.
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-	<img src="assets/videos/Beghouled.gif" alt="Beghouled" style="display: block; width: 50vw;  max-width: 100%;">
+	<img src="../../assets/videos/Beghouled.gif" alt="Beghouled" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 هرگاه ترکیبی ساخته شود، گیاهان آن ترکیب از بین رفته و گیاهان بالای آنها پایین به جای آنها می‌افتند، و هرجا لازم باشد، گیاه به صورت تصادفی از بالا ساخته می‌شود.
