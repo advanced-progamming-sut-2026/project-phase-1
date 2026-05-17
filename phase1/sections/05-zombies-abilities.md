@@ -9,8 +9,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/default.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/default.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -20,8 +20,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/conehead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/conehead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -32,8 +32,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/buckethead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/buckethead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -44,8 +44,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/knight.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/knight.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -55,8 +55,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/brickhead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/brickhead.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -68,8 +68,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/gargantuar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/gargantuar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -79,8 +79,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/imp.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/imp.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -92,8 +92,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/modern_allstar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/modern_allstar.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -104,8 +104,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/arcade.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/arcade.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -115,8 +115,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/lostcity_parasol.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/lostcity_parasol.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -129,8 +129,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/lostcity_crystalskull.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/lostcity_crystalskull.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -141,8 +141,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/prospector.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/prospector.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -154,8 +154,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/piano.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/piano.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -167,8 +167,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/modern_newspaper.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/modern_newspaper.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -180,8 +180,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/barrel_roller.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/barrel_roller.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -189,8 +189,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/barrel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/barrel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -202,8 +202,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/egypt_ra.png" alt="Zombie" style="position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; object-fit: contain; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/egypt_ra.png" alt="Zombie" style="position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; object-fit: contain; display: block;">
   </div>
 </div>
 
@@ -215,8 +215,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/egypt_explorer.png" alt="Zombie" 
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/egypt_explorer.png" alt="Zombie" 
          style="position: absolute; 
                 top: 10%; 
                 left: 10%; 
@@ -233,8 +233,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/egypt_tomb_raiser.png" alt="Zombie" 
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: 100%; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/egypt_tomb_raiser.png" alt="Zombie" 
          style="position: absolute; 
                 top: 10%; 
                 left: 10%; 
@@ -256,8 +256,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/iceage_dodo.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/iceage_dodo.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -271,8 +271,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/iceage_hunter.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/iceage_hunter.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -283,8 +283,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/iceage_troglobite.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/iceage_troglobite.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -298,8 +298,8 @@
 <!-- > برخی گیاهان به او مصونند و او آنها را قلاب نمیکند -->
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/beach_fisherman.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/beach_fisherman.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -311,8 +311,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/beach_snorkel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/beach_snorkel.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -323,8 +323,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/beach_octopus.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/beach_octopus.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -341,8 +341,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/dark_juggler.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/dark_juggler.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -355,8 +355,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/dark_wizard.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/dark_wizard.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -367,8 +367,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/dark_king.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/dark_king.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
@@ -378,8 +378,8 @@
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; max-width: 50%; margin: 20px auto;">
   <div style="position: relative; display: inline-block; line-height: 0;">
-    <img src="../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
-    <img src="../assets/images/zombies/dark_imp_dragon.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
+    <img src="../../assets/images/zombies/frame.png" alt="Frame" style="display: block; width: auto; height: auto; max-width: 100%;">
+    <img src="../../assets/images/zombies/dark_imp_dragon.png" alt="Zombie" style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; width: calc(100% - 20px); height: calc(100% - 20px); object-fit: contain; object-position: center; display: block;">
   </div>
 </div>
 
