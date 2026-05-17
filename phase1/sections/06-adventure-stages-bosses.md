@@ -105,6 +105,9 @@ lily pad
 
 ### 1. نوار کناری (Conveyor Belt Level)
 <!-- امتیازی -->
+<div style="background-color: #fffacd; border-right: 5px solid #ffcc00; padding: 15px; margin: 15px 0; border-radius: 4px; direction: rtl;">
+
+<strong style="color: #ff9800; font-size: 1.1em;">⭐ نکته — بخش امتیازی</strong>
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
 	<img src="assets/images/ConveyorBeltLevel.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
@@ -112,6 +115,7 @@ lily pad
 
 در این مرحله به جای قسمت انتخاب گیاه، بازیکن مستقیم وارد بازی می‌شود و نوار (تسمه نقاله‌ای) را در گوشه صفحه مشاهده می‌کند. این نوار هر **۱۲ ثانیه** یک گیاه را به صورت تصادفی (از بین گیاه‌های مخصوصی که بازیکن موفق به دریافت آن شده، بدون نیاز به انتخاب آن‌ها) بالا می‌آورد. دقت شود که اولین گیاه در لحظه ورود بازیکن به مرحله تولید می‌شود.
 
+</div>
 ---
 
 ### 2. گیاهان زندانی (Locked Plants Level)
@@ -166,6 +170,8 @@ lily pad
 
 ---
 
+<div style="background-color: #fffacd; border-right: 5px solid #ffcc00; padding: 15px; margin: 15px 0; border-radius: 4px; direction: rtl;">
+
 ### 8. هر چه رسد بکار (Plant What You Get)
 
 بازی با مقدار مشخصی **آفتاب اولیه** (مثلاً ۵۰۰ یا ۸۰۰) شروع می‌شود و دیگر هیچ آفتابی از آسمان نمی‌بارد. همچنین بازیکن امکان انتخاب گل‌های آفتابگردان را ندارد. بازیکن فقط با همان آفتاب اولیه باید تمام زامبی‌های مرحله را شکست دهد.
@@ -178,6 +184,6 @@ start zombie waves
 ```
 کاری کند که زامبی‌ها بیایند و بازی به روند عادی شروع شود.
 
-
+</div>
 
 
