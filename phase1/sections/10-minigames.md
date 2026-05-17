@@ -124,7 +124,7 @@ candy crush).
 	<img src="../../assets/videos/Beghouled.gif" alt="Beghouled" style="display: block; width: 50vw;  max-width: 100%;">
 </div> -->
 
-![Beghouled](assets/videos/Beghouled.gif)
+![Beghouled](../../assets/videos/Beghouled.gif)
 
 هرگاه ترکیبی ساخته شود، گیاهان آن ترکیب از بین رفته و گیاهان بالای آنها پایین به جای آنها می‌افتند، و هرجا لازم باشد، گیاه به صورت تصادفی از بالا ساخته می‌شود.
  بازیکن وقتی برنده می‌شود که تعدادی معین ترکیب سه تایی (یا بیشتر) بسازد.
