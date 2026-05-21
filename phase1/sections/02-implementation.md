@@ -159,7 +159,7 @@ answer -a <answer>
 بعد از انجام مراحل Authorization/Authentication و زمانی که کاربر توانست با یک حساب کاربری شناخته شود، وارد منوی اصلی می‌شویم.
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_Main.png" alt="Main Menu" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_Main.png" alt="Main Menu" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 
@@ -183,10 +183,10 @@ menu logout
 ## منوی بازی (Adventure Menu)
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_Adventure_1.png" alt="Menu_Adventure_1" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_Adventure_1.png" alt="Menu_Adventure_1" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_Adventure_2.png" alt="Menu_Adventure_2" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_Adventure_2.png" alt="Menu_Adventure_2" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 در این منو، چند قسمت (Chapter) وجود دارد که هر زمان تمام مراحل آن Chapter تمام شد، مراحل Chapter بعد باز می‌شوند. با انتخاب هر Chapter وارد قسمت بازی می‌شوید و شروع به بازی کردن با آن مرحله از بازی خواهید شد.
@@ -230,7 +230,7 @@ menu cheat add <n> <coin/diamond>
 ## منوی تنظیمات (Settings Menu) {#settings-menu}
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_Settings.png" alt="Menu_Settings" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_Settings.png" alt="Menu_Settings" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 
@@ -253,7 +253,7 @@ menu settings change-difficulty -l <difficulty_level>
 ## منوی شبکه (Game Center Menu) {#side-menus}
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_Game_Center.png" alt="Menu_Game_Center" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_Game_Center.png" alt="Menu_Game_Center" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 توضیحات بیشتر درباره این منو در داک قسمت شبکه ارائه داده خواهد شد.
@@ -262,7 +262,7 @@ menu settings change-difficulty -l <difficulty_level>
 ## منوی اخبار (News Menu)
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_News.png" alt="Menu_News" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_News.png" alt="Menu_News" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 این منو مربوط به اخبار بازی است. مانند زامبی‌ها، گیاهان، minigameها، پیام از طرف سایر کاربران (داخل قسمت شبکه) و سایر موارد که در داخل بازی اتفاق می‌افتد، در این بخش قرار میگیرند. هرگاه پیام جدیدی برای کاربر قرار داده شود، باید دکمه News داخل منوی اصلی، باید یک علامت قرمز رنگی برای اطلاع کاربر قرار داده شود.
@@ -328,10 +328,10 @@ menu profile show-info
 ### منوی کلکسیون (Collection Menu)
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_Collection_1.png" alt="Menu_Collection_1" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_Collection_1.png" alt="Menu_Collection_1" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="assets/images/Menu_Collection_2.png" alt="Menu_Collection_2" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../../assets/images/Menu_Collection_2.png" alt="Menu_Collection_2" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 همانطور که در این عکس‌ها هم مشاهده می‌کنید، منوی Collection برای نشان دادن گیاهان، زامبی‌هایی که کسب کرده‌اید، استفاده می‌شوند.

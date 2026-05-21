@@ -110,7 +110,7 @@ lily pad
 <strong style="color: #ff9800; font-size: 1.1em;">⭐ نکته — بخش امتیازی</strong>
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-	<img src="assets/images/ConveyorBeltLevel.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
+	<img src="../../assets/images/ConveyorBeltLevel.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 در این مرحله به جای قسمت انتخاب گیاه، بازیکن مستقیم وارد بازی می‌شود و نوار (تسمه نقاله‌ای) را در گوشه صفحه مشاهده می‌کند. این نوار هر **۱۲ ثانیه** یک گیاه را به صورت تصادفی (از بین گیاه‌های مخصوصی که بازیکن موفق به دریافت آن شده، بدون نیاز به انتخاب آن‌ها) بالا می‌آورد. دقت شود که اولین گیاه در لحظه ورود بازیکن به مرحله تولید می‌شود.
@@ -121,7 +121,7 @@ lily pad
 ### 2. گیاهان زندانی (Locked Plants Level)
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-	<img src="assets/images/LockedPlantsLevel.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
+	<img src="../../assets/images/LockedPlantsLevel.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 در این نوع مرحله، تعدادی از اسلات‌های انتخاب گیاه از ابتدا قفل شده‌اند یا بعضی گیاهان خاص به طور کلی در این مرحله در دسترس نیستند.
@@ -133,7 +133,7 @@ lily pad
 ### 3. محافظ دانه ها (Save Our Seeds)
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-	<img src="assets/images/SaveOurSeeds.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
+	<img src="../../assets/images/SaveOurSeeds.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 چندین گیاه خاص از قبل روی نقشه قرار دارند. هر زامبی که موفق شود یکی از آن گیاهان را بخورد، بازیکن بلافاصله مرحله را می‌بازد.
@@ -157,7 +157,7 @@ lily pad
 ### 6. ددلاین (Dead Line)
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-	<img src="assets/images/redLine.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
+	<img src="../../assets/images/redLine.png" alt="example" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 در این مراحل، یک خط عمودی در جای مشخصی از نقشه بازی وجود دارد. بازیکن به محض عبور هر زامبی از این خط، بلافاصله بازی را می‌بازد.

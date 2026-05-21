@@ -4,7 +4,7 @@
 
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-	<img src="assets/images/quests.jpg" alt="travel log" style="display: block; width: 50vw;  max-width: 100%;">
+	<img src="../../assets/images/quests.jpg" alt="travel log" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 در این بخش ماموریت های مختلف بازی برای درگیر شدن بیشتر کاربر با بازی و هدایت کاربر در روند بازی است. کوئست ها به چهار دسته ی کلی تقسیم می شوند که هر کدام شرط کامل شدن و پاداش مخصوص به خودشان را دارند که در جدول زیر قید شده اند.
