@@ -1,6 +1,7 @@
-﻿# کوئست‌‌ها {#quests}
+﻿
 
-کوئست‌‌ها را به چهار دسته‌‌ی کلی تقسیم می‌‌شوند که هر کدام شرط کامل می‌‌شدن و پاداش مخصوص به خودشان را دارند.
+# کوئست‌‌ها
+
 
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
@@ -28,7 +29,7 @@ travel log
 [Quests-pvz2](https://my.sharif.edu/s/nndNcHm6By5yYbk)
 
 
--الویت بندی و مکانیزم تعاملی (Engagement)
+## الویت بندی و مکانیزم تعاملی
 --
 
 برای بالا بردن User Engagement سیستم کوئست ها بر اساس الویت های زیر نمایش داده می شوند:
