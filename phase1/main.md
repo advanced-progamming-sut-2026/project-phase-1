@@ -1,7 +1,7 @@
 ﻿<div align="center">
 
   <h2 dir="rtl">به نام خدا</h2>
-  <img src="../../assets/logo/logo.svg" width="180" style="margin: 0 auto; display: block;"/>
+  <img src="../assets/logo/logo.svg" width="180" style="margin: 0 auto; display: block;"/>
 
   <h2 dir="rtl">درس برنامه‌‌نویسی پیشرفته</h2>
   <h3 dir="rtl">فاز صفر و یک</h3>
@@ -19,6 +19,13 @@
     <strong>دکتر محمد امین فضلی</strong>
   </p>
 
+  <br/>
+
+  <p dir="rtl">
+    طراحان:<br/>
+    مهدی علی نژاد، عارف زارع زاده، پارسا ضمیری، امیرمهدی طهماسبی <br/>
+    علیرضا مهندسی، متین باقری، رهام قاسمی، محمدامین حقجو، یاسمن کاویانپور، حسین زاهدی ادیب، محمدپارسا آرانی، آرش شاه حسینی، امیرحسین مهبودی
+  </p>
 </div>
 
 <div class="page-break"></div>
@@ -26,7 +33,7 @@
 # مقدمه
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="../../assets/logo/pvz.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../assets/logo/pvz.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 پروژه درس برنامه‌‌نویسی پیشرفته نسخه‌‌ای از بازی Plants vs. Zombies 2 خواهد بود.
@@ -34,8 +41,8 @@
 در این بازی، بازیکن در یک دنیای خیالی و آخرالزمانی قرار دارد که توسط زامبی‌‌ها تصاحب شده است. مأموریت اصلی حفاظت از آخرین خطوط دفاعی انسان‌‌ها با استفاده از انواع گیاهان است. هر گیاه دارای توانایی‌‌های منحصربه‌‌فرد و اثرات ویژه‌‌ای است که بازیکن باید بر اساس نوع تهدید و شرایط مرحله‌‌ی بازی، استراتژی مناسبی را انتخاب کند.
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
-  <img src="../../assets/images/pvz1.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
-  <img src="../../assets/images/pvz2.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../assets/images/pvz1.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
+  <img src="../assets/images/pvz2.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
 

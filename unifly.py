@@ -151,7 +151,6 @@ def process_main(main_path: Path, out_path: Path):
         else:
             section = target_path.read_text(encoding='utf-8')
         # Embed images as base64
-        section = embed_images_as_base64(section, main_path.parent)
         out_lines.append(f'<a id="{anchor_id}" style="display:none"></a>')
         out_lines.append(f'<!-- Start of section: {label} -->')
         out_lines.extend(section.splitlines())
