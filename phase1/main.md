@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
   <h2 dir="rtl">به نام خدا</h2>
   <img src="../assets/logo/logo.svg" width="180" style="margin: 0 auto; display: block;"/>
@@ -48,6 +48,7 @@
 
 # فهرست مطالب
 
+- [فاز صفر](../phase0/main.md#کارهایی-که-در-فاز-صفر-باید-انجام-شوند)
 - [مقدمه](sections/01-introduction.md#مقدمه)
 - [ثبت‌‌نام](sections/02-implementation.md#منوی-ثبتنام)
 - [ورود](sections/02-implementation.md#منوی-ورود)

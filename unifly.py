@@ -197,11 +197,14 @@ def embed_images_as_base64(text, base_dir):
     markdown_pattern = re.compile(r'!\[([^\]]*?)\]\(([^)\s]+)(?:\s+"[^"]*")?\)')
     html_pattern = re.compile(r'<img\b([^>]*?)\bsrc=["\']([^"\']+)["\']([^>]*)>', re.IGNORECASE)
 
+    def should_inline_gif(img_path):
+        return Path(img_path).suffix.lower() == '.gif'
+
     def replace_markdown_img(match):
         alt_text = match.group(1)
         img_path = match.group(2).strip()
         data_uri = img_path
-        if not img_path.startswith(('http://', 'https://', 'data:')):
+        if not img_path.startswith(('http://', 'https://', 'data:')) and should_inline_gif(img_path):
             b64_uri = image_to_base64(img_path, base_dir)
             if b64_uri:
                 data_uri = b64_uri
@@ -213,7 +216,7 @@ def embed_images_as_base64(text, base_dir):
         before_src = match.group(1)
         img_path = match.group(2).strip()
         after_src = match.group(3)
-        if img_path.startswith(('http://', 'https://', 'data:')):
+        if img_path.startswith(('http://', 'https://', 'data:')) or not should_inline_gif(img_path):
             return match.group(0)
         b64_uri = image_to_base64(img_path, base_dir)
         if not b64_uri:

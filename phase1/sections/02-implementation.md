@@ -373,5 +373,5 @@ menu collection show-zombie -z <zombie_name>
 menu collection upgrade-plant -p <plant_name>
 ```
 
-*نکته*: در ادامه، بیشتر درمورد ارتقای گیاهان توضیح داده می‌شود.
+*نکته*: در ادامه، بیشتر درباره‌ی ارتقای گیاهان توضیح داده می‌شود.
 
