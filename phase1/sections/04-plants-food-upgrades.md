@@ -1,6 +1,6 @@
 ﻿
 
-# گیاهان
+# [گیاهان](../main.md#فهرست-مطالب)
 
 ## مکانیزم‌‌ها و دسته‌‌بندی گیاهان
 
@@ -139,8 +139,15 @@ seed packet
 ---
 
 
-### [جدول مشخصات گیاهان](../../assets/Plants.json)
+### جدول مشخصات گیاهان
 
-[جدول گیاهان به صورت google sheet](https://docs.google.com/spreadsheets/d/1ZJWxRfTzkDfD-W8DXg255-C3TgGqh_v89VYq4UmFiT8/edit?gid=1382794905#gid=1382794905)
+در جدول زیر لیست گیاهانی که از شما می‌خواهیم پیاده کنید آمده است. دقت کنید که ردیف‌های آبی گیاهان امتیازی هستند. همچنین در ریپوی پروژه نیز این فایل موجود است.
+در آدرس
+
+```
+phase1/assets/Data/plants.csv
+```
+
+[جدول گیاهان](https://my.sharif.edu/s/XDomAAyqSPbwQEx)
 
 <div style="page-break-after: always;"></div>

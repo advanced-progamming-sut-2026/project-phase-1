@@ -24,11 +24,12 @@
   <p dir="rtl">
     طراحان:<br/>
     مهدی علی نژاد، عارف زارع زاده، پارسا ضمیری، امیرمهدی طهماسبی <br/>
-    علیرضا مهندسی، متین باقری، رهام قاسمی، محمدامین حقجو، یاسمن کاویانپور، حسین زاهدی ادیب، محمدپارسا آرانی، آرش شاه حسینی، امیرحسین مهبودی
+    علیرضا مهندسی، متین باقری، رهام قاسمی، محمدامین حقجو، یاسمن کاویانپور<br/>
+    حسین زاهدی ادیب، محمدپارسا آرانی، آرش شاه حسینی، امیرحسین مهبودی
   </p>
-</div>
+</div> 
 
-<div class="page-break"></div>
+<div style="page-break-after: always;"></div>
 
 # مقدمه
 
@@ -45,20 +46,13 @@
   <img src="../assets/images/pvz2.png" alt="Frame" style="display: block; width: 50vw;  max-width: 100%;">
 </div>
 
+<div style="page-break-after: always;"></div>
 
 # فهرست مطالب
 
-- [مقدمه](sections/01-introduction.md#مقدمه)
+- [معرفی](sections/01-introduction.md#معرفی)
 - [فاز صفر](sections/01-introduction.md#فاز-صفر)
-- [ثبت‌‌نام](sections/02-implementation.md#منوی-ثبتنام)
-- [ورود](sections/02-implementation.md#منوی-ورود)
-- [منوی اصلی](sections/02-implementation.md#منوی-اصلی)
-- [منوی پروفایل](sections/02-implementation.md#منوی-پروفایل)
-- [منوی بازی](sections/02-implementation.md#منوی-بازی)
-- [منوی کلکسیون](sections/02-implementation.md#منوی-کلکسیون)
-- [منوی تنظیمات](sections/02-implementation.md#منوی-تنظیمات)
-- [منوی اخبار](sections/02-implementation.md#منوی-اخبار)
-- [انتخاب گیاهان](sections/03-fixed-stage-mechanisms.md#منوی-انتخاب-گیاه)
+- [منوها](sections/02-menus.md#منوها)
 - [مکانیزم‌‌های اصلی](sections/03-fixed-stage-mechanisms.md#مکانیزمهای-اصلی-بازی)
 - [گیاهان](sections/04-plants-food-upgrades.md#گیاهان)
 - [زامبی‌‌ها](sections/05-zombies-abilities.md#زامبیها)
@@ -70,4 +64,4 @@
 - [لیدربورد](sections/09-leaderboard-scoring.md#لیدربورد)
 - [مینی‌‌گیم‌‌ها](sections/10-minigames.md#مینیگیمها)
 
-<div class="page-break"></div>
+<div style="page-break-after: always;"></div>

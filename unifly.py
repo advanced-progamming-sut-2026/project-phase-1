@@ -91,6 +91,7 @@ def extract_section_from_file(file_path: Path, anchor_id: str):
             end_idx = i
             break
     section = "\n".join(lines[start_idx:end_idx]) + "\n"
+    section = embed_images_as_base64(section, Path("C:\\\\Users\\m1382\\Desktop\\CTR\\ta\\ap\\project-documents"))
     return section
 
 def process_main(main_path: Path, out_path: Path):
@@ -141,19 +142,22 @@ def process_main(main_path: Path, out_path: Path):
             i += 1
 
     # append the rest of the file unchanged
-    out_lines.extend(lines[end:])
+    out_lines.extend(lines[end:])   
 
     # Now, after TOC, embed each section with anchor and pointer
-    out_lines.append('\n---\n')
+    already_added = []
+    
     for target_path, anchor, anchor_id, label in section_anchors:
+        if target_path in already_added:
+            continue
         if anchor:
             section = extract_section_from_file(target_path, anchor)
         else:
             section = target_path.read_text(encoding='utf-8')
+        already_added += [target_path]
         # Embed images as base64
-        out_lines.append(f'<a id="{anchor_id}" style="display:none"></a>')
-        out_lines.append(f'<!-- Start of section: {label} -->')
-        out_lines.extend(section.splitlines())
+        out_lines.append(f'<!-- Start of section: {label} -->\n\n')
+        out_lines.extend(section[1:].splitlines())
         out_lines.append(f'<!-- End of section: {label} -->\n')
 
     out_lines.append('\n<style>body { direction: rtl; } pre, code { direction: ltr; unicode-bidi: embed; }</style>\n')
