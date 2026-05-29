@@ -48,8 +48,8 @@
 
 # فهرست مطالب
 
-- [فاز صفر](../phase0/main.md#کارهایی-که-در-فاز-صفر-باید-انجام-شوند)
 - [مقدمه](sections/01-introduction.md#مقدمه)
+- [فاز صفر](sections/01-introduction.md#فاز-صفر)
 - [ثبت‌‌نام](sections/02-implementation.md#منوی-ثبتنام)
 - [ورود](sections/02-implementation.md#منوی-ورود)
 - [منوی اصلی](sections/02-implementation.md#منوی-اصلی)

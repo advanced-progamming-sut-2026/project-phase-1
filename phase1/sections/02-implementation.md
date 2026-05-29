@@ -126,6 +126,7 @@ pick question -q <question_number> -a <answer> -c <answer_confirm>
 در فاز ۱، کاربر با دستور **ورود به منو** می‌تواند به **منوی ورود** برود.
 <br>
 
+<div style="page-break-after: always;"></div>
 
 ## منوی ورود
 در این قسمت می‌تواند یکی از اقدامات زیر را انجام دهد:
@@ -153,6 +154,8 @@ answer -a <answer>
 
 <br>
 
+<div style="page-break-after: always;"></div>
+
 
 ## منوی اصلی
 بعد از انجام مراحل Authorization/Authentication و زمانی که کاربر توانست با یک حساب کاربری شناخته شود، وارد منوی اصلی می‌شویم.
@@ -177,6 +180,8 @@ menu logout
 
 
 همانطور که در عکس بالا هم مشخص است، کاربر با انتخاب یکی از این منوها به منوی مربوطه خواهد رفت.
+
+<div style="page-break-after: always;"></div>
 
 ## منوی بازی
 
@@ -229,6 +234,8 @@ menu gem-wallet
 menu cheat add <n> <coin/diamond>
 ```
 
+<div style="page-break-after: always;"></div>
+
 ## منوی تنظیمات
 
 <div style="position: relative; display: flex; justify-content: center; align-items: center; margin: 20px auto;">
@@ -262,6 +269,7 @@ menu settings change-difficulty -l <difficulty_level>
 
 توضیحات بیشتر درباره این منو در داک قسمت شبکه ارائه داده خواهد شد. -->
 
+<div style="page-break-after: always;"></div>
 
 ## منوی اخبار
 
@@ -286,6 +294,7 @@ menu news show-unread
 menu news show-all
 ```
 
+<div style="page-break-after: always;"></div>
 
 
 ## منوی پروفایل
@@ -324,6 +333,8 @@ menu profile show-info
 ```
 
 <!-- ## منوی بازی -->
+
+<div style="page-break-after: always;"></div>
 
 ## منوی کلکسیون
 
@@ -375,3 +386,4 @@ menu collection upgrade-plant -p <plant_name>
 
 *نکته*: در ادامه، بیشتر درباره‌ی ارتقای گیاهان توضیح داده می‌شود.
 
+<div style="page-break-after: always;"></div>
